@@ -137,7 +137,7 @@ export default {
   transform: scale(1.1);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-/* TODO-ITEM PREVIEW: Find a way to improve this, too much repetition */
+/* TODO-ITEM PREVIEW: Improve - Too much repetition */
 .todo-item {
   display: flex;
   background-color: white;
