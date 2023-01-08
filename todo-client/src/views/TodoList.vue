@@ -49,7 +49,7 @@ export default {
         .then(() => this.getItems())
         .catch((err) => console.log(err));
 
-      let date = new Date()
+      let date = new Date();
       let newItem = {
         title: "New Item!",
         description: "To prevent from running out of items!",
@@ -58,7 +58,14 @@ export default {
       };
       axios
         .post("https://todofullstack.azurewebsites.net/todoitem", newItem)
-        .then((this.id = `00000000-${Math.floor(Math.random()) * 9}${Math.floor(Math.random()) * 9}${Math.floor(Math.random()) * 9}${Math.floor(Math.random()) * 9}-0000-0000-000000000000`))
+        .then((
+          this.id = `00000000-${
+            Math.floor(Math.random()) * 9}${
+              Math.floor(Math.random()) * 9
+            }${Math.floor(Math.random()) * 9}${
+              Math.floor(Math.random()) * 9
+            }-0000-0000-000000000000`
+        ))
         .catch((err) => console.log(err));
     },
     updateItem(id) {
