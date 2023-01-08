@@ -7,7 +7,7 @@
 <script>
 import AddForm from "@/components/AddForm.vue";
 import TodoItems from "@/views/TodoList.vue";
-import axios from "axios";
+// import axios from "axios";
 
 export default {
   name: "AddItem",
