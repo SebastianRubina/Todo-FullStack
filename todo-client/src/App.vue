@@ -1,4 +1,5 @@
 <template>
+  <h3><strong>Note: functionality to push new items to the database has been disabled to stop people from posting inappropriate items for everyone to see. Delete and Complete functionalities will not work with custom items either as the DELETE and PATCH requests won't find your item in the database.</strong></h3>
   <nav>
     <router-link to="/">Todo</router-link> |
     <router-link to="/add">Add Item</router-link>
