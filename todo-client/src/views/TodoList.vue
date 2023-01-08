@@ -53,8 +53,8 @@ export default {
       let newItem = {
         title: "New Item!",
         description: "To prevent from running out of items!",
-        date: `${date.getFullYear()}/${date.getMonth()}/${date.getDate()}`,
-        time: `${date.getHours}:${date.getMinutes}:${date.getSeconds}`,
+        date: `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`,
+        time: `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`,
       };
       axios
         .post("https://todofullstack.azurewebsites.net/todoitem", newItem)
