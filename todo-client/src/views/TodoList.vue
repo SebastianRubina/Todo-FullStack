@@ -51,7 +51,7 @@ export default {
 
       let date = new Date();
       let newItem = {
-        title: "New Item " + Math.floor(Math.random) * 100 + "!",
+        title: "New Item " + (Math.floor(Math.random) * 100).toString() + "!",
         description: "To prevent from running out of items!",
         date: `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`,
         time: `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`,
