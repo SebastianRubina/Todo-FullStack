@@ -3,9 +3,9 @@
     <strong
       >Note: functionality to push new items to the database has been disabled
       to stop people from posting inappropriate items for everyone to see.
-      Delete and Complete functionalities will not work with custom items either
-      as the DELETE and PATCH requests won't find your item in the
-      database.</strong
+      As POST requests have been disabled and new items can't be added,
+      a new item will be added to the database everytime an existing item is
+      deleted to prevent the site from running out of items to showcase.</strong
     >
   </h3>
   <nav>
