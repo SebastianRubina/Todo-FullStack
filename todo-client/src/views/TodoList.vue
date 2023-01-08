@@ -61,9 +61,9 @@ export default {
         .then(
           (this.id = `00000000-${Math.floor(Math.random()) * 9}${
             Math.floor(Math.random()) * 9
-            }${Math.floor(Math.random()) * 9}${
+          }${Math.floor(Math.random()) * 9}${
             Math.floor(Math.random()) * 9
-            }-0000-0000-000000000000`)
+          }-0000-0000-000000000000`)
         )
         .catch((err) => console.log(err));
     },
