@@ -51,8 +51,8 @@ export default {
 
       let date = new Date()
       let newItem = {
-        title: "New Item!"
-        description: "To prevent from running out of items!"
+        title: "New Item!",
+        description: "To prevent from running out of items!",
         date: `${date.getFullYear()}/${date.getMonth()}/${date.getDate()}`,
         time: `${date.getHours}:${date.getMinutes}:${date.getSeconds}`,
       };
