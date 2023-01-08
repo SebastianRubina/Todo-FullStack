@@ -59,8 +59,7 @@ export default {
       axios
         .post("https://todofullstack.azurewebsites.net/todoitem", newItem)
         .then(
-          (this.id = `00000000-${
-            Math.floor(Math.random()) * 9}${
+          (this.id = `00000000-${Math.floor(Math.random()) * 9}${
             Math.floor(Math.random()) * 9
             }${Math.floor(Math.random()) * 9}${
             Math.floor(Math.random()) * 9
